@@ -35,7 +35,22 @@ Petroleum and transportation expertise shapes the work. A dashboard supports an 
 
 ## Explore our work
 
-Read our [public case studies](https://www.truenorthstrategyops.com/case-studies/) and [service overview](https://www.truenorthstrategyops.com/). These describe our approach without publishing client systems or customer records. Public software showcases will be added here when suitable projects are approved for release.
+Our [TNDS website](https://www.truenorthstrategyops.com/) covers operations services and client engagement work. [Pipeline Punks](https://www.pipelinepunks.com/) is our public workshop and publications hub. This GitHub organization introduces the practice and its public development standards.
+
+### Fuel distribution case studies
+
+Four anonymized engagements, with the evidence and current review status stated on each page:
+
+- [Fuel price book automation](https://www.truenorthstrategyops.com/case-studies/fuel-price-book): freight-aware terminal comparisons, 1,684 checked values and client review before cutover.
+- [Fuel distributor SOP program](https://www.truenorthstrategyops.com/case-studies/fuel-distributor-sop-program): more than 60 procedure drafts across six areas, with crew review before approval.
+- [Fuel fleet compliance tracker](https://www.truenorthstrategyops.com/case-studies/fleet-compliance-tracker): test dates, records and fleet costs in one place; the latest ELD exception reports await approval for live use.
+- [Operating climate assessment](https://www.truenorthstrategyops.com/case-studies/operating-climate-assessment): protected crew feedback, a 30, 60 and 90 day plan, and a corrected missed-delivery baseline.
+
+Read the [full case-study collection](https://www.truenorthstrategyops.com/case-studies). The narratives preserve client anonymity and distinguish observed work from test evidence and pending releases.
+
+### Workshop and field notes
+
+Visit the [Pipeline Punks hub](https://www.pipelinepunks.com/), read the [Operators Brief](https://www.pipelinepunks.com/operators-brief), or [choose free petroleum email briefs](https://briefs.pipelinepunks.com/signup). The hub labels the Build Studio and learning lane as being rebuilt. Public demos use sample data.
 
 ## Veteran owned
 
