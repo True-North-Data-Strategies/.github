@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">True North Data Strategies LLC</title>
+  <desc id="desc">Turning Data into Direction. Petroleum, transportation and fleet operations.</desc>
+  <rect width="1200" height="260" rx="16" fill="#1a3a5c"/>
+  <rect x="0" y="244" width="1200" height="16" fill="#3d8eb9"/>
+  <circle cx="112" cy="120" r="63" fill="none" stroke="#3d8eb9" stroke-width="3"/>
+  <path d="M112 48 L133 120 L112 105 L91 120 Z" fill="#ffffff"/>
+  <path d="M112 192 L91 120 L112 135 L133 120 Z" fill="#3d8eb9"/>
+  <text x="212" y="100" fill="#ffffff" font-family="Arial, sans-serif" font-size="46" font-weight="700">True North Data Strategies LLC</text>
+  <text x="214" y="151" fill="#ffffff" font-family="Arial, sans-serif" font-size="28">Turning Data into Direction.</text>
+  <text x="214" y="197" fill="#a9d6ee" font-family="Arial, sans-serif" font-size="21">Petroleum · Transportation · Fleet Operations</text>
+</svg>
