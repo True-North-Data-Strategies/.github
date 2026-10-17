@@ -52,6 +52,8 @@ Read the [full case-study collection](https://www.truenorthstrategyops.com/case-
 
 Visit the [Pipeline Punks hub](https://www.pipelinepunks.com/), read the [Operators Brief](https://www.pipelinepunks.com/operators-brief), or [choose free petroleum email briefs](https://briefs.pipelinepunks.com/signup). The hub labels the Build Studio and learning lane as being rebuilt. Public demos use sample data.
 
+[Pipeline Punks on YouTube](https://www.youtube.com/channel/UCzpwMmWvESyMLH-2VRjetBw) shares dispatch and fleet operations lessons. Check publication dates and current official sources for regulatory topics.
+
 ## Veteran owned
 
 TNDS is a veteran-owned business based in Colorado Springs, Colorado. We bring an operator's discipline to documentation, accountability and follow-through.
