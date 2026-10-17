@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Private security concern
+    url: https://github.com/True-North-Data-Strategies/.github/blob/main/SECURITY.md
+    about: Use the private contact for sensitive findings.

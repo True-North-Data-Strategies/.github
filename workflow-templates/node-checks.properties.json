@@ -1,0 +1,11 @@
+{
+  "name": "TNDS Node checks",
+  "description": "Opt-in deterministic Node tests with read-only permissions, a timeout and no AI or deployment. Verify the repository test command before adoption.",
+  "categories": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "filePatterns": [
+    "package.json$"
+  ]
+}
