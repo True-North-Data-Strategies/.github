@@ -1,0 +1,28 @@
+name: Work request
+description: Propose a feature, documentation change or maintenance task.
+body:
+  - type: markdown
+    attributes:
+      value: "Check existing issues and the repository's task source first. Use fictional examples and keep client details private."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Operating problem and intended user
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: What should we see when it works?
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Scope, module contracts and dependencies
+      description: Link the authoritative contract; distinguish a proposal from approved work.
+  - type: textarea
+    id: owner
+    attributes:
+      label: Owner, blocker and proposed release
+      description: Leave unknown dates and ownership unassigned. Do not imply approval.
