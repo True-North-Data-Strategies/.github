@@ -44,8 +44,8 @@ Before TNDS: 20 years in the U.S. Army, Airborne Infantry, then eight years at a
  
 - A supplier dashboard
 - Inventory tracking, fed by automated DTN bill of lading (BOL) pulls over FTP
-- TankScan tank monitor API work, integrated with Verizon Connect Reveal
-- Motive API integration for fleet monitoring and IFTA reporting
+- TankScan tank monitor API work that pulled reading, sorted by level of priority and fed into the dispatch workflow.
+- Motive API and Verizon Connect Reveal integration for fleet monitoring and IFTA reporting
 Those systems belong to the carrier. TNDS is where I build the next fixes, for operators like them.
  
 I am operations first and engineer second. I've worked the seats I build for: tankwagon and transport driver, tankwagon and transport dispatch, fleet workflows, DOT compliance, and department head. Everything here exists because a dispatcher, a driver, a plant manager, or a bookkeeper had a problem that a spreadsheet and a script could remove.
