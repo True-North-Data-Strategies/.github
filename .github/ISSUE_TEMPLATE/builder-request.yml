@@ -1,0 +1,55 @@
+name: Builder request
+description: Ask to help with, or join the work on, a TNDS repository. Public and private repositories are both welcome.
+title: "Builder request: "
+labels: ["builder-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for wanting to build with True North Data Strategies. This request is a public issue, so share only what you are comfortable posting. To ask privately, email jacob@truenorthstrategyops.com.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: The repository name from the organization profile, or "not sure yet".
+      placeholder: petrostack-dispatch
+    validations:
+      required: true
+  - type: textarea
+    id: work
+    attributes:
+      label: What do you want to work on?
+      description: A feature, a fix, tests, documentation, or a general offer of help.
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: What have you built before?
+      description: Links to repositories or a portfolio, or a short summary. Petroleum, fleet or field operations experience helps but is not required.
+    validations:
+      required: true
+  - type: dropdown
+    id: involvement
+    attributes:
+      label: How involved do you want to be?
+      options:
+        - One issue or pull request
+        - Ongoing contributor
+        - Not sure yet
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Best way to reach you
+      description: Optional. Replies on this issue reach you through your GitHub notifications.
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Ground rules
+      options:
+        - label: I will use synthetic data only and keep credentials, client identifiers and personal records out of issues, commits and attachments.
+          required: true
+        - label: I understand that access to a private repository is granted case by case and is not automatic.
+          required: true
