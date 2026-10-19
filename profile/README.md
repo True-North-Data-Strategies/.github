@@ -90,17 +90,17 @@ This list covers every repository in the organization, public and private, excep
 
 | Repository | What it does | Status | Get involved |
 |---|---|---|---|
-| **_PetroStack-Command** (private) | PetroStack Console. A Next.js console for petroleum operations: each module opens views with metrics, exceptions and record details. Client branding imports with a preview before it applies, and synthetic test data can be added or removed. Starts empty. | Operator preview | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=_PetroStack-Command) |
+| **petrostack-console** (private) | PetroStack Console. A Next.js console for petroleum operations: each module opens views with metrics, exceptions and record details. Client branding imports with a preview before it applies, and synthetic test data can be added or removed. Starts empty. | Operator preview | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=petrostack-console) |
 | **petrostack-dispatch** (private) | Dispatch module for the console. Signs requests to the dispatch workbook, previews and confirms orders, assignments and imports, and never retries a lost confirmation. Owns no business rules. | In build | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=petrostack-dispatch) |
 | **petrostack-telematics** (private) | One read-only collector for a fleet telematics account. Converts units to miles and gallons, moves time to the client's zone, maps vendor vehicle IDs to unit IDs, and writes one fixed export that every module reads. | In build | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=petrostack-telematics) |
-| **FleetStack-ps** (private) | Fleet module. Owns asset and unit identity and the compliance due status, and calculates a separate client test copy from its own rules, event log and meter readings. Imports manual exports and telematics meter evidence. | In build | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=FleetStack-ps) |
-| **BackOfficeStack-petro** (private) | Petroleum cost, price and invoice subledger on Google Sheets and Apps Script. Prices every delivery from supplier cost with the buildup shown line by line, matches BOLs to terminal exports and supplier invoices, sets delivery fees from a profit-per-stop target, and hands approved invoice lines to the accounting package by CSV. Contracts and phase plan written; build not started. | Specified | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=BackOfficeStack-petro) |
+| **petrostack-fleet** (private) | Fleet module. Owns asset and unit identity and the compliance due status, and calculates a separate client test copy from its own rules, event log and meter readings. Imports manual exports and telematics meter evidence. | In build | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=petrostack-fleet) |
+| **petrostack-backoffice** (private) | Petroleum cost, price and invoice subledger on Google Sheets and Apps Script. Prices every delivery from supplier cost with the buildup shown line by line, matches BOLs to terminal exports and supplier invoices, sets delivery fees from a profit-per-stop target, and hands approved invoice lines to the accounting package by CSV. Contracts and phase plan written; build not started. | Specified | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=petrostack-backoffice) |
 
 ### Compliance
 
 | Repository | What it does | Status | Get involved |
 |---|---|---|---|
-| **ComplianceStack-petro** (private) | Fleet compliance and cost tracker for petroleum marketers and fuel haulers, on Google Sheets and Apps Script. Due dates for inspections, cargo tank and vapor tests, registrations and preventive maintenance, by date and by miles, plus cost per mile and per gallon. Feeds PetroStack Fleet. A new client is copy, configure, import. | Template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=ComplianceStack-petro) |
+| **petrostack-compliance** (private) | Fleet compliance and cost tracker for petroleum marketers and fuel haulers, on Google Sheets and Apps Script. Due dates for inspections, cargo tank and vapor tests, registrations and preventive maintenance, by date and by miles, plus cost per mile and per gallon. Feeds PetroStack Fleet. A new client is copy, configure, import. | Template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=petrostack-compliance) |
 | **[ComplianceStack-ps](https://github.com/True-North-Data-Strategies/ComplianceStack-ps)** (public) | Compliance Command (PowerShell) for government compliance packets: client intake, template injection, validation, remediation and scored reporting. | Client template | [Open an issue](https://github.com/True-North-Data-Strategies/ComplianceStack-ps/issues/new) |
 
 ### Training
@@ -114,7 +114,7 @@ This list covers every repository in the organization, public and private, excep
 
 | Repository | What it does | Status | Get involved |
 |---|---|---|---|
-| **tnds-sop-package** (private) | The package TNDS starts from on every embed. It captures a procedure, renders it, seals it and registers it, for every controlled document type a petroleum marketer needs. One config file brands it, and a catalog of 92 planned documents ships with it. | In use | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=tnds-sop-package) |
+| **platform-sop-package** (private) | The package TNDS starts from on every embed. It captures a procedure, renders it, seals it and registers it, for every controlled document type a petroleum marketer needs. One config file brands it, and a catalog of 92 planned documents ships with it. | In use | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=platform-sop-package) |
 
 ### Operator tools
 
@@ -128,9 +128,9 @@ This list covers every repository in the organization, public and private, excep
 | Repository | What it does | Status | Get involved |
 |---|---|---|---|
 | **[NorthMark](https://github.com/True-North-Data-Strategies/NorthMark)** (public) | One clean logo master in; a digital brand kit, 300 DPI DTF transfers and packed gang sheets out. Runs on your own machine. | In use | [Open an issue](https://github.com/True-North-Data-Strategies/NorthMark/issues/new) |
-| **tnds-repo-standards** (private) | The README steward that checks every repository's front page against the TNDS standard, plus shared development standards. | In use | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=tnds-repo-standards) |
-| **tnds-raycast-command-center** (private) | Raycast extension for the TNDS workstation: workstation health, local AI, a project browser and approved launchers. | Version 3.1 | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=tnds-raycast-command-center) |
-| **ai-workstation-manager** (private) | Local-first command line tool that audits, health-checks, benchmarks and safely repairs macOS AI and developer workstations. Nothing is uploaded anywhere. | Version 0.1.0 | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=ai-workstation-manager) |
+| **platform-repo-standards** (private) | The README steward that checks every repository's front page against the TNDS standard, plus shared development standards. | In use | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=platform-repo-standards) |
+| **tool-raycast-command-center** (private) | Raycast extension for the TNDS workstation: workstation health, local AI, a project browser and approved launchers. | Version 3.1 | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=tool-raycast-command-center) |
+| **tool-workstation-manager** (private) | Local-first command line tool that audits, health-checks, benchmarks and safely repairs macOS AI and developer workstations. Nothing is uploaded anywhere. | Version 0.1.0 | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=tool-workstation-manager) |
 | **[parallel-agentstack](https://github.com/True-North-Data-Strategies/parallel-agentstack)** (public) | Runs two or three AI agents on one codebase without conflicts. Each agent owns a track and declared file zones and reports through a shared coordination log. Markdown templates and two init scripts, no runtime. | Released | [Open an issue](https://github.com/True-North-Data-Strategies/parallel-agentstack/issues/new) |
 
 ### Project starters
@@ -214,4 +214,4 @@ We bring an operator's discipline to documentation, accountability and follow-th
 
 [www.truenorthstrategyops.com](https://www.truenorthstrategyops.com/) · [jacob@truenorthstrategyops.com](mailto:jacob@truenorthstrategyops.com) · [719-204-6365](tel:+17192046365)
 
-[pipelinepunks.com](https://www.pipelinepunks.com/) · [truenorthfob.org](https://truenorthfob.org/)
+[pipelinepunks.com](https://www.pipelinepunks.com/)
