@@ -51,5 +51,5 @@ body:
       options:
         - label: I will use synthetic data only and keep credentials, client identifiers and personal records out of issues, commits and attachments.
           required: true
-        - label: I understand that access to a private repository is granted case by case and is not automatic.
+        - label: I understand that access to a private repository requires a signed builder agreement covering confidentiality and assignment of the work to True North Data Strategies, and is granted per repository after a conversation.
           required: true
