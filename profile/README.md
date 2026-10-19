@@ -84,7 +84,7 @@ Pipeline Punks shows what can be built. TNDS sells and delivers the business out
 
 ## Repositories
 
-This list covers every repository in the organization, public and private. Private repositories hold deployment detail or work still being proven, so visitors cannot open them. To help on one, use the link in the last column.
+This list covers every repository in the organization, public and private, except this profile repository. Private repositories hold deployment detail or work still being proven, so visitors cannot open them. To help on one, use the link in the last column.
 
 ### Petroleum operations
 
@@ -99,7 +99,8 @@ This list covers every repository in the organization, public and private. Priva
 
 | Repository | What it does | Status | Get involved |
 |---|---|---|---|
-| **ComplianceStack-ps** (private) | Compliance Command for government compliance packets: client intake, template injection, validation, remediation and scored reporting. | Client template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=ComplianceStack-ps) |
+| **ComplianceStack-petro** (private) | Fleet compliance and cost tracker for petroleum marketers and fuel haulers, on Google Sheets and Apps Script. Due dates for inspections, cargo tank and vapor tests, registrations and preventive maintenance, by date and by miles, plus cost per mile and per gallon. Feeds PetroStack Fleet. A new client is copy, configure, import. | Template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=ComplianceStack-petro) |
+| **[ComplianceStack-ps](https://github.com/True-North-Data-Strategies/ComplianceStack-ps)** (public) | Compliance Command (PowerShell) for government compliance packets: client intake, template injection, validation, remediation and scored reporting. | Client template | [Open an issue](https://github.com/True-North-Data-Strategies/ComplianceStack-ps/issues/new) |
 
 ### Training
 
@@ -108,11 +109,18 @@ This list covers every repository in the organization, public and private. Priva
 | **ai-field-training** (private) | AI Field Training course sources: 27 registered lessons in four tracks, with the builders, validators and human-testing kits that produce them. | Human testing | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=ai-field-training) |
 | **ai-field-training-console** (private) | Instructor console. Open a course, present native slides, print handouts, write independent drafts and apply client branding in one place. | Protected preview | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=ai-field-training-console) |
 
-### Google Workspace automation
+### Documents and procedures
 
 | Repository | What it does | Status | Get involved |
 |---|---|---|---|
-| **Command-Installer** (private) | Desktop installer that deploys 20 Google Workspace automation modules (finance, fleet and DOT compliance, contracts, proposals, SEO and government contracting) from a point-and-click app, the command line or a config file. | Version 2.1 | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=Command-Installer) |
+| **tnds-sop-package** (private) | The package TNDS starts from on every embed. It captures a procedure, renders it, seals it and registers it, for every controlled document type a petroleum marketer needs. One config file brands it, and a catalog of 92 planned documents ships with it. | In use | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=tnds-sop-package) |
+
+### Operator tools
+
+| Repository | What it does | Status | Get involved |
+|---|---|---|---|
+| **[think-before-you-build](https://github.com/True-North-Data-Strategies/think-before-you-build)** (public) | Two Claude skills for operators. The Bearing Check pressure-tests a decision before you commit resources. The World Model Mapper finds the gaps in a process or system before you build or fix it. | Released | [Open an issue](https://github.com/True-North-Data-Strategies/think-before-you-build/issues/new) |
+| **[small-business-ai-rules](https://github.com/True-North-Data-Strategies/small-business-ai-rules)** (public) | AI ground rules for a person or small business that runs on ChatGPT, Claude, Perplexity or Gemini subscriptions: which tool gets which job, what data may go where, how accounts are locked down, a decision log and a kill switch. | Released | [Open an issue](https://github.com/True-North-Data-Strategies/small-business-ai-rules/issues/new) |
 
 ### Tools and standards
 
@@ -121,23 +129,40 @@ This list covers every repository in the organization, public and private. Priva
 | **[create-logos-all-sizes](https://github.com/True-North-Data-Strategies/create-logos-all-sizes)** (public) | Turns one logo into every size and color variant, app icons, previews and a brand ZIP, on your own machine. | In use | [Open an issue](https://github.com/True-North-Data-Strategies/create-logos-all-sizes/issues/new) |
 | **tnds-repo-standards** (private) | The README steward that checks every repository's front page against the TNDS standard, plus shared development standards. | In use | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=tnds-repo-standards) |
 | **tnds-raycast-command-center** (private) | Raycast extension for the TNDS workstation: workstation health, local AI, a project browser and approved launchers. | Version 3.1 | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=tnds-raycast-command-center) |
+| **ai-workstation-manager** (private) | Local-first command line tool that audits, health-checks, benchmarks and safely repairs macOS AI and developer workstations. Nothing is uploaded anywhere. | Version 0.1.0 | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=ai-workstation-manager) |
+| **[parallel-agentstack](https://github.com/True-North-Data-Strategies/parallel-agentstack)** (public) | Runs two or three AI agents on one codebase without conflicts. Each agent owns a track and declared file zones and reports through a shared coordination log. Markdown templates and two init scripts, no runtime. | Released | [Open an issue](https://github.com/True-North-Data-Strategies/parallel-agentstack/issues/new) |
+
+### Project starters
+
+Starting points for new builds. Each one carries the TNDS structure, agent instructions and standards from the first commit.
+
+| Repository | What it does | Status | Get involved |
+|---|---|---|---|
+| **scaffold-google-apps-script-project** (private) | Automation that lives inside Google Workspace, where the data already is. | Template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=scaffold-google-apps-script-project) |
+| **scaffold-python-project** (private) | Data work, ETL, scheduled jobs and connectors where Python is the right tool. | Template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=scaffold-python-project) |
+| **scaffold-node-express-api** (private) | Layered TypeScript HTTP service for integrations, webhooks and backend APIs. | Template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=scaffold-node-express-api) |
+| **scaffold-nextjs-app-router** (private) | The full product surface: frontend, API routes and server logic in one deployable. | Template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=scaffold-nextjs-app-router) |
+| **scaffold-llm-app-pipeline** (private) | One defined AI task, run repeatedly, validated before anything downstream trusts it. | Template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=scaffold-llm-app-pipeline) |
+| **scaffold-vanilla-frontend** (private) | One page, no build step, no dependencies, runs anywhere. | Template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=scaffold-vanilla-frontend) |
+| **scaffold-client-knowledge-infrastructure** (private) | The two-brains engagement: a records brain plus a memory brain behind one front door, no framework. | Template | [Request access](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml&repository=scaffold-client-knowledge-infrastructure) |
 
 More of my builds, including my earlier petroleum workbooks, live in my [personal GitHub account](https://github.com/Jjohnston70).
 
 ## Build with us
 
-Builders are welcome, whether you want to fix one thing or join the work for the long run.
+Builders are welcome, whether you want to fix one thing or join the work for the long run. TNDS is small and growing, and the builders we have worked with are the people we know first.
 
 1. Pick a repository above, or choose "not sure yet".
 2. Open a [builder request](https://github.com/True-North-Data-Strategies/.github/issues/new?template=builder-request.yml). Say what you want to work on and what you have built before.
 3. Jacob reviews requests and replies on the issue or by email.
-4. A public repository takes issues and pull requests directly. Read the [contribution guidance](https://github.com/True-North-Data-Strategies/.github/blob/main/CONTRIBUTING.md) first.
-5. Access to a private repository is granted per person and per repository, after a conversation.
+4. A public repository takes issues and pull requests directly, under that repository's license. Read the [contribution guidance](https://github.com/True-North-Data-Strategies/.github/blob/main/CONTRIBUTING.md) first.
+5. Work on a private repository is scoped, paid contract work. Before access, you sign a builder agreement that covers confidentiality and assigns the work to TNDS. Access is then granted per person and per repository, and removed when the work ends.
 
 Builder requests are public issues. To ask privately, email [jacob@truenorthstrategyops.com](mailto:jacob@truenorthstrategyops.com).
 
 | Ground rule | Why |
 |---|---|
+| Signed builder agreement before private access | Confidentiality and ownership are settled before any private code is shared. |
 | Synthetic data only | Client records never belong in code, tests, issues or screenshots. |
 | No credentials or client identifiers anywhere | Not in commits, issues, attachments or logs. |
 | One focused change per pull request | Existing tests pass before review. |
